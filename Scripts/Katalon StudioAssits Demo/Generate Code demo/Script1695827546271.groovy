@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/*
+ * Open a web browser
+ * maximize the window
+ * navigate to a specific URL
+ * click on a menu item
+ * take a screenshot of a login form
+ * enter a username and password
+ * take a screenshot of the login button,
+ * click on the login button
+ * verify the presence of a "My Account" element
+ * then close the browser
+ */

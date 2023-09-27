@@ -25,13 +25,18 @@ WebUI.navigateToUrl('https://crane-brothers.com/')
 
 WebUI.click(findTestObject('Menu_Account'))
 
+WebUI.takeElementScreenshotAsCheckpoint('login_form', findTestObject('LoginObject'))
+
 WebUI.setText(findTestObject('email_login'), Username)
 
 WebUI.setText(findTestObject('password_login'), Password)
+
+WebUI.takeElementScreenshotAsCheckpoint('login_with_acc', findTestObject('LoginObject'))
 
 WebUI.click(findTestObject('login_button'))
 
 WebUI.verifyElementPresent(findTestObject('My Account'), 5)
 
 WebUI.closeBrowser()
+
 
